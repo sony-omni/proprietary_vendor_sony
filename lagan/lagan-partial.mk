@@ -1,0 +1,164 @@
+# Copyright (C) 2012 Sony Mobile Communication
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+PRODUCT_PACKAGES += \
+	bt_addr \
+	efsks \
+	hci_qcomm_init \
+	ks \
+	netmgrd \
+	qmuxd \
+	qseecomd \
+	qcks \
+	ta2bin \
+	ta_qmi_client \
+	wcnss_addr \
+	tad_static \
+	a225_pfp \
+	a225_pm4 \
+	a225p5_pm4 \
+	a300_pfp \
+	a300_pm4 \
+	acdb \
+	apps \
+	cyttsp_8064_mtp \
+	cyttsp_8960_cdp \
+	dsp1 \
+	dsp2 \
+	dsp3 \
+	dsps_b00 \
+	dsps_b01 \
+	dsps_b02 \
+	dsps_b03 \
+	dsps_b04 \
+	dsps_b05 \
+	dsps_mdt \
+	dxhdcp2_b00 \
+	dxhdcp2_b01 \
+	dxhdcp2_b02 \
+	dxhdcp2_b03 \
+	dxhdcp2_mdt \
+	efs1 \
+	efs2 \
+	efs3 \
+	leia_pfp_470 \
+	leia_pm4_470 \
+	mdm_acdb \
+	rpm \
+	sbl1 \
+	sbl2 \
+	ta \
+	touch_module_id_0x36 \
+	touch_module_id_0x37 \
+	touch_module_id_0x41 \
+	touch_module_id_0x42 \
+	tzlibasb_b00 \
+	tzlibasb_b01 \
+	tzlibasb_b02 \
+	tzlibasb_b03 \
+	tzlibasb_mdt \
+	tzsuntory_b00 \
+	tzsuntory_b01 \
+	tzsuntory_b02 \
+	tzsuntory_b03 \
+	tzsuntory_mdt \
+	vidc_b00 \
+	vidc_b01 \
+	vidc_b02 \
+	vidc_b03 \
+	vidc_mdt \
+	vidc_1080p \
+	vidcfw \
+	wcd9310_anc \
+	wcd9310_mbhc \
+	wcnss_b00 \
+	wcnss_b01 \
+	wcnss_b02 \
+	wcnss_b04 \
+	wcnss_b05 \
+	wcnss_mdt \
+	WCNSS_cfg \
+	WCNSS_qcom_cfg \
+	WCNSS_qcom_wlan_nv \
+	copybit.msm8960 \
+	gps.default \
+	nfc.msm8960 \
+	libI420colorconvert \
+	libOmxCore \
+	libOmxEvrcDec \
+	libOmxQcelp13Dec \
+	libOmxVdec \
+	libacdbloader \
+	libaudcal \
+	libc2dcolorconvert \
+	libcsd-client \
+	libdiag \
+	libdrmdecrypt \
+	libdsi_netctrl \
+	libdsutils \
+	libface \
+	libgemini \
+	libgps.utils \
+	libidl \
+	libkeyctrl \
+	libloc_adapter \
+	libloc_api_v02 \
+	libloc_core \
+	libloc_eng \
+	libmercury \
+	libmiscta \
+	libmmjpeg \
+	libmmstillomx \
+	libnetmgr \
+	libpin-cache \
+	libqcci_legacy \
+	libqdi \
+	libqdp \
+	libqmi \
+	libqmi_client_qmux \
+	libqmi_csvt_srvc \
+	libqmiservices \
+	libril-qc-qmi-1 \
+	libstagefrighthw \
+	libta \
+	libtime_genoff \
+	libpn544_fw \
+	eglsubAndroid \
+	libEGL_adreno \
+	libGLESv1_CM_adreno \
+	libGLESv2S3D_adreno \
+	libGLESv2_adreno \
+	libq3dtools_adreno \
+	libC2D2 \
+	libCB \
+	libMPU3050 \
+	libOpenCL \
+	libOpenVG \
+	libQSEEComAPI \
+	libadreno_utils \
+	libadsprpc \
+	libc2d2_a3xx \
+	libc2d2_z180 \
+	libgsl \
+	libllvm-a3xx \
+	libllvm-arm \
+	libmm-color-convertor \
+	libqc-opt \
+	libqcci_adc \
+	libqmi_cci \
+	libqmi_common_so \
+	libqmi_csi \
+	libqmi_encdec \
+	libsc-a2xx \
+	libsc-a3xx
