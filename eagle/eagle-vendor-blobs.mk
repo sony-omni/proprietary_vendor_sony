@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     vendor/sony/eagle/proprietary/lib/hw/sensorsecond.msm8226.so:system/lib/hw/sensorsecond.msm8226.so \
     vendor/sony/eagle/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/eagle/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/sony/eagle/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_liveshot.so:system/lib/libchromatix_imx134_liveshot.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_video_hd.so:system/lib/libchromatix_imx134_video_hd.so \
