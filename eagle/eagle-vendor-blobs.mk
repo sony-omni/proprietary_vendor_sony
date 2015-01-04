@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/scd:system/bin/scd \
     vendor/sony/eagle/proprietary/bin/scdnotifier:system/bin/scdnotifier \
     vendor/sony/eagle/proprietary/bin/sct_service:system/bin/sct_service \
-    vendor/sony/eagle/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/eagle/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/eagle/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/eagle/proprietary/bin/thermal-engine:system/bin/thermal-engine \
