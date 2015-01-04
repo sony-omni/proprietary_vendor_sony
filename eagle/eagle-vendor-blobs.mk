@@ -183,33 +183,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/eagle/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/sony/eagle/proprietary/lib/libscdclient.so:system/lib/libscdclient.so \
-    vendor/sony/eagle/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
-    vendor/sony/eagle/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
-    vendor/sony/eagle/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
     vendor/sony/eagle/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/eagle/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/eagle/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_charging.so:system/lib/sysmon/sysmon_charging.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_corelimit.so:system/lib/sysmon/sysmon_corelimit.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_dc_current_limit_value.so:system/lib/sysmon/sysmon_dc_current_limit_value.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_gpu_perflevel.so:system/lib/sysmon/sysmon_gpu_perflevel.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_modem_8X26.so:system/lib/sysmon/sysmon_modem_8X26.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_msm_thermal_disable.so:system/lib/sysmon/sysmon_msm_thermal_disable.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_msm_therm.so:system/lib/sysmon/sysmon_msm_therm.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_pa_therm0.so:system/lib/sysmon/sysmon_pa_therm0.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_pa_therm1.so:system/lib/sysmon/sysmon_pa_therm1.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_perflevel.so:system/lib/sysmon/sysmon_perflevel.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_tsens_tz_sensor2.so:system/lib/sysmon/sysmon_tsens_tz_sensor2.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_tsens_tz_sensor3.so:system/lib/sysmon/sysmon_tsens_tz_sensor3.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_tsens_tz_sensor4.so:system/lib/sysmon/sysmon_tsens_tz_sensor4.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_tsens_tz_sensor5.so:system/lib/sysmon/sysmon_tsens_tz_sensor5.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_usb_current_limit_value.so:system/lib/sysmon/sysmon_usb_current_limit_value.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_wlan_limit.so:system/lib/sysmon/sysmon_wlan_limit.so \
-    vendor/sony/eagle/proprietary/lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so \
     vendor/sony/eagle/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/sony/eagle/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/sony/eagle/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
