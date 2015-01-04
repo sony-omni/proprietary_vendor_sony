@@ -42,12 +42,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/radish:system/bin/radish \
     vendor/sony/eagle/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/sony/eagle/proprietary/bin/rild:system/bin/rild \
+    vendor/sony/eagle/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/eagle/proprietary/bin/scd:system/bin/scd \
     vendor/sony/eagle/proprietary/bin/scdnotifier:system/bin/scdnotifier \
     vendor/sony/eagle/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/eagle/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/eagle/proprietary/bin/taimport:system/bin/taimport \
+    vendor/sony/eagle/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
+    vendor/sony/eagle/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/sony/eagle/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/sony/eagle/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -154,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/eagle/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/eagle/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
+    vendor/sony/eagle/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/eagle/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/eagle/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
