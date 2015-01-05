@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/eagle/proprietary/bin/radish:system/bin/radish \
     vendor/sony/eagle/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/sony/eagle/proprietary/bin/rild:system/bin/rild \
     vendor/sony/eagle/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/eagle/proprietary/bin/scd:system/bin/scd \
     vendor/sony/eagle/proprietary/bin/scdnotifier:system/bin/scdnotifier \
@@ -177,9 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/libqmi_gate.so:system/lib/libqmi_gate.so \
     vendor/sony/eagle/proprietary/lib/libqmigatenvjni.so:system/lib/libqmigatenvjni.so \
     vendor/sony/eagle/proprietary/lib/libqmigateservice.so:system/lib/libqmigateservice.so \
-    vendor/sony/eagle/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/sony/eagle/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/sony/eagle/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/sony/eagle/proprietary/lib/libscdclient.so:system/lib/libscdclient.so \
     vendor/sony/eagle/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/eagle/proprietary/lib/libta.so:system/lib/libta.so \
