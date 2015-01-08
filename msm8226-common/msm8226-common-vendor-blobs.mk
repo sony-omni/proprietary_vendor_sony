@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8226-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/msm8226-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/sony/msm8226-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/sony/msm8226-common/proprietary/bin/tad_static:system/bin/tad_static \
     vendor/sony/msm8226-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/msm8226-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/msm8226-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
