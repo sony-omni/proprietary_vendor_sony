@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/sony/msm8226-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
