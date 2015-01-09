@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8226-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/msm8226-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/msm8226-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/sony/msm8226-common/proprietary/lib/hw/copybit.msm8226.so:system/lib/hw/copybit.msm8226.so \
     vendor/sony/msm8226-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/msm8226-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/msm8226-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
