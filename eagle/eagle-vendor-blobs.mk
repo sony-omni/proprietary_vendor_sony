@@ -16,94 +16,18 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/sony/eagle/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/sony/eagle/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-    vendor/sony/eagle/proprietary/bin/display_color_calib:system/bin/display_color_calib \
-    vendor/sony/eagle/proprietary/bin/hvdcp:system/bin/hvdcp \
-    vendor/sony/eagle/proprietary/bin/led_service:system/bin/led_service \
-    vendor/sony/eagle/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/sony/eagle/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
-    vendor/sony/eagle/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
-    vendor/sony/eagle/proprietary/bin/sensorservice:system/bin/sensorservice \
-    vendor/sony/eagle/proprietary/bin/cnd:system/bin/cnd \
-    vendor/sony/eagle/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/sony/eagle/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/sony/eagle/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/eagle/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/eagle/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/sony/eagle/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/eagle/proprietary/bin/memsicd:system/bin/memsicd \
-    vendor/sony/eagle/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/sony/eagle/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/sony/eagle/proprietary/bin/QmiGateDaemon:system/bin/QmiGateDaemon \
-    vendor/sony/eagle/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-    vendor/sony/eagle/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/eagle/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/sony/eagle/proprietary/bin/radish:system/bin/radish \
-    vendor/sony/eagle/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/sony/eagle/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/sony/eagle/proprietary/bin/scd:system/bin/scd \
-    vendor/sony/eagle/proprietary/bin/scdnotifier:system/bin/scdnotifier \
-    vendor/sony/eagle/proprietary/bin/sct_service:system/bin/sct_service \
-    vendor/sony/eagle/proprietary/bin/taimport:system/bin/taimport \
-    vendor/sony/eagle/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/eagle/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-    vendor/sony/eagle/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/sony/eagle/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY52_VY53/VY52_VY53_Bluetooth_cal.acdb:system/etc/acdbdata/VY52_VY53/VY52_VY53_Bluetooth_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY52_VY53/VY52_VY53_General_cal.acdb:system/etc/acdbdata/VY52_VY53/VY52_VY53_General_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY52_VY53/VY52_VY53_Global_cal.acdb:system/etc/acdbdata/VY52_VY53/VY52_VY53_Global_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY52_VY53/VY52_VY53_Handset_cal.acdb:system/etc/acdbdata/VY52_VY53/VY52_VY53_Handset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY52_VY53/VY52_VY53_Hdmi_cal.acdb:system/etc/acdbdata/VY52_VY53/VY52_VY53_Hdmi_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY52_VY53/VY52_VY53_Headset_cal.acdb:system/etc/acdbdata/VY52_VY53/VY52_VY53_Headset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY52_VY53/VY52_VY53_Speaker_cal.acdb:system/etc/acdbdata/VY52_VY53/VY52_VY53_Speaker_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY55_VY56/VY55_VY56_Bluetooth_cal.acdb:system/etc/acdbdata/VY55_VY56/VY55_VY56_Bluetooth_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY55_VY56/VY55_VY56_General_cal.acdb:system/etc/acdbdata/VY55_VY56/VY55_VY56_General_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY55_VY56/VY55_VY56_Global_cal.acdb:system/etc/acdbdata/VY55_VY56/VY55_VY56_Global_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY55_VY56/VY55_VY56_Handset_cal.acdb:system/etc/acdbdata/VY55_VY56/VY55_VY56_Handset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY55_VY56/VY55_VY56_Hdmi_cal.acdb:system/etc/acdbdata/VY55_VY56/VY55_VY56_Hdmi_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY55_VY56/VY55_VY56_Headset_cal.acdb:system/etc/acdbdata/VY55_VY56/VY55_VY56_Headset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY55_VY56/VY55_VY56_Speaker_cal.acdb:system/etc/acdbdata/VY55_VY56/VY55_VY56_Speaker_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Bluetooth_cal.acdb:system/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Bluetooth_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_General_cal.acdb:system/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_General_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Global_cal.acdb:system/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Global_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Handset_cal.acdb:system/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Handset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Hdmi_cal.acdb:system/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Hdmi_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Headset_cal.acdb:system/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Headset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Speaker_cal.acdb:system/etc/acdbdata/VY58_VY59_AP/VY58_VY59_AP_Speaker_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Bluetooth_cal.acdb:system/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Bluetooth_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_General_cal.acdb:system/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_General_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Global_cal.acdb:system/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Global_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Handset_cal.acdb:system/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Handset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Hdmi_cal.acdb:system/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Hdmi_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Headset_cal.acdb:system/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Headset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Speaker_cal.acdb:system/etc/acdbdata/VY58_VY59_SP/VY58_VY59_SP_Speaker_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59/VY58_VY59_Bluetooth_cal.acdb:system/etc/acdbdata/VY58_VY59/VY58_VY59_Bluetooth_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59/VY58_VY59_General_cal.acdb:system/etc/acdbdata/VY58_VY59/VY58_VY59_General_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59/VY58_VY59_Global_cal.acdb:system/etc/acdbdata/VY58_VY59/VY58_VY59_Global_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59/VY58_VY59_Handset_cal.acdb:system/etc/acdbdata/VY58_VY59/VY58_VY59_Handset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59/VY58_VY59_Hdmi_cal.acdb:system/etc/acdbdata/VY58_VY59/VY58_VY59_Hdmi_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59/VY58_VY59_Headset_cal.acdb:system/etc/acdbdata/VY58_VY59/VY58_VY59_Headset_cal.acdb \
-    vendor/sony/eagle/proprietary/etc/acdbdata/VY58_VY59/VY58_VY59_Speaker_cal.acdb:system/etc/acdbdata/VY58_VY59/VY58_VY59_Speaker_cal.acdb \
+    vendor/sony/eagle/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/sony/eagle/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+    vendor/sony/eagle/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/sony/eagle/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/sony/eagle/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/sony/eagle/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/sony/eagle/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/sony/eagle/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/sony/eagle/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
     vendor/sony/eagle/proprietary/etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
-    vendor/sony/eagle/proprietary/etc/firmware/cmnlib.flist:system/etc/firmware/cmnlib.flist \
     vendor/sony/eagle/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
     vendor/sony/eagle/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/sony/eagle/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -112,19 +36,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
     vendor/sony/eagle/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
     vendor/sony/eagle/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
-    vendor/sony/eagle/proprietary/etc/firmware/tzhdcp.flist:system/etc/firmware/tzhdcp.flist \
     vendor/sony/eagle/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
     vendor/sony/eagle/proprietary/etc/firmware/tzlibasb.b00:system/etc/firmware/tzlibasb.b00 \
     vendor/sony/eagle/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
     vendor/sony/eagle/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
     vendor/sony/eagle/proprietary/etc/firmware/tzlibasb.b03:system/etc/firmware/tzlibasb.b03 \
-    vendor/sony/eagle/proprietary/etc/firmware/tzlibasb.flist:system/etc/firmware/tzlibasb.flist \
     vendor/sony/eagle/proprietary/etc/firmware/tzlibasb.mdt:system/etc/firmware/tzlibasb.mdt \
     vendor/sony/eagle/proprietary/etc/firmware/tzsuntory.b00:system/etc/firmware/tzsuntory.b00 \
     vendor/sony/eagle/proprietary/etc/firmware/tzsuntory.b01:system/etc/firmware/tzsuntory.b01 \
     vendor/sony/eagle/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/eagle/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
-    vendor/sony/eagle/proprietary/etc/firmware/tzsuntory.flist:system/etc/firmware/tzsuntory.flist \
     vendor/sony/eagle/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/eagle/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/sony/eagle/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
@@ -135,30 +56,23 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/sony/eagle/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/sony/eagle/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
-    vendor/sony/eagle/proprietary/lib/hw/sensorsecond.msm8226.so:system/lib/hw/sensorsecond.msm8226.so \
-    vendor/sony/eagle/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/eagle/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/sony/eagle/proprietary/lib/libbeautyface.so:system/lib/libbeautyface.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_liveshot.so:system/lib/libchromatix_imx134_liveshot.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_video_hd.so:system/lib/libchromatix_imx134_video_hd.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134li_liveshot.so:system/lib/libchromatix_imx134li_liveshot.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134li_video_hd.so:system/lib/libchromatix_imx134li_video_hd.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+    vendor/sony/eagle/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/eagle/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/eagle/proprietary/lib/libface_jni.so:system/lib/libface_jni.so \
     vendor/sony/eagle/proprietary/lib/libface_shared.so:system/lib/libface_shared.so \
     vendor/sony/eagle/proprietary/lib/libface_wrapper.so:system/lib/libface_wrapper.so \
-    vendor/sony/eagle/proprietary/lib/libbeautyface.so:system/lib/libbeautyface.so \
     vendor/sony/eagle/proprietary/lib/libfaceanalyzer.so:system/lib/libfaceanalyzer.so \
     vendor/sony/eagle/proprietary/lib/libfaceengine.so:system/lib/libfaceengine.so \
     vendor/sony/eagle/proprietary/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     vendor/sony/eagle/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/sony/eagle/proprietary/lib/libidd.so:system/lib/libidd.so \
-    vendor/sony/eagle/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/eagle/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
-    vendor/sony/eagle/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
-    vendor/sony/eagle/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/sony/eagle/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/eagle/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/sony/eagle/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
@@ -170,55 +84,60 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/libmorpho_posture_detect.so:system/lib/libmorpho_posture_detect.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
-    vendor/sony/eagle/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
-    vendor/sony/eagle/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
-    vendor/sony/eagle/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/eagle/proprietary/lib/libqmi_gate.so:system/lib/libqmi_gate.so \
-    vendor/sony/eagle/proprietary/lib/libqmigatenvjni.so:system/lib/libqmigatenvjni.so \
-    vendor/sony/eagle/proprietary/lib/libqmigateservice.so:system/lib/libqmigateservice.so \
-    vendor/sony/eagle/proprietary/lib/libscdclient.so:system/lib/libscdclient.so \
-    vendor/sony/eagle/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/eagle/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/eagle/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
-    vendor/sony/eagle/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/sony/eagle/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/sony/eagle/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/sony/eagle/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/sony/eagle/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/sony/eagle/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/sony/eagle/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/sony/eagle/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_common.so:system/vendor/lib/libchromatix_imx134li_common.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_default_video.so:system/vendor/lib/libchromatix_imx134li_default_video.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_hfr_120.so:system/vendor/lib/libchromatix_imx134li_hfr_120.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_hfr_60.so:system/vendor/lib/libchromatix_imx134li_hfr_60.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_preview.so:system/vendor/lib/libchromatix_imx134li_preview.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_common.so:system/vendor/lib/libchromatix_imx134li_QC_common.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_hfr_120.so:system/vendor/lib/libchromatix_imx134li_QC_hfr_120.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_hfr_60.so:system/vendor/lib/libchromatix_imx134li_QC_hfr_60.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_preview.so:system/vendor/lib/libchromatix_imx134li_QC_preview.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_snapshot.so:system/vendor/lib/libchromatix_imx134li_QC_snapshot.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_video_hdr.so:system/vendor/lib/libchromatix_imx134li_QC_video_hdr.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_video.so:system/vendor/lib/libchromatix_imx134li_QC_video.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_snapshot.so:system/vendor/lib/libchromatix_imx134li_snapshot.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_preview.so:system/vendor/lib/libchromatix_imx134_preview.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:system/vendor/lib/libchromatix_imx134_snapshot.so \
+    vendor/sony/eagle/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/sony/eagle/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/sony/eagle/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/sony/eagle/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/sony/eagle/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/sony/eagle/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/sony/eagle/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/sony/eagle/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_common.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_default_video.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_preview.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_Sony_common.so:system/vendor/lib/libchromatix_imx134_Sony_common.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_Sony_hfr_120.so:system/vendor/lib/libchromatix_imx134_Sony_hfr_120.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_Sony_hfr_60.so:system/vendor/lib/libchromatix_imx134_Sony_hfr_60.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_Sony_preview.so:system/vendor/lib/libchromatix_imx134_Sony_preview.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_Sony_snapshot.so:system/vendor/lib/libchromatix_imx134_Sony_snapshot.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_Sony_video_hdr.so:system/vendor/lib/libchromatix_imx134_Sony_video_hdr.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_Sony_video.so:system/vendor/lib/libchromatix_imx134_Sony_video.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_Sony_video_hdr.so:system/vendor/lib/libchromatix_imx134_Sony_video_hdr.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_preview.so:system/vendor/lib/libchromatix_imx134_preview.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:system/vendor/lib/libchromatix_imx134_snapshot.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_common.so:system/vendor/lib/libchromatix_imx134li_QC_common.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_hfr_120.so:system/vendor/lib/libchromatix_imx134li_QC_hfr_120.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_hfr_60.so:system/vendor/lib/libchromatix_imx134li_QC_hfr_60.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_preview.so:system/vendor/lib/libchromatix_imx134li_QC_preview.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_snapshot.so:system/vendor/lib/libchromatix_imx134li_QC_snapshot.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_video.so:system/vendor/lib/libchromatix_imx134li_QC_video.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_QC_video_hdr.so:system/vendor/lib/libchromatix_imx134li_QC_video_hdr.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_common.so:system/vendor/lib/libchromatix_imx134li_common.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_default_video.so:system/vendor/lib/libchromatix_imx134li_default_video.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_hfr_120.so:system/vendor/lib/libchromatix_imx134li_hfr_120.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_hfr_60.so:system/vendor/lib/libchromatix_imx134li_hfr_60.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_preview.so:system/vendor/lib/libchromatix_imx134li_preview.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx134li_snapshot.so:system/vendor/lib/libchromatix_imx134li_snapshot.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx135_default_video.so:system/vendor/lib/libchromatix_imx135_default_video.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:system/vendor/lib/libchromatix_imx135_hfr_120.so \
@@ -243,12 +162,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_hfr_120fps.so:system/vendor/lib/libchromatix_ov8825_hfr_120fps.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_hfr_60fps.so:system/vendor/lib/libchromatix_ov8825_hfr_60fps.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_hfr_90fps.so:system/vendor/lib/libchromatix_ov8825_hfr_90fps.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_liveshot_hd.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_liveshot.so:system/vendor/lib/libchromatix_ov8825_liveshot.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_preview_hd.so:system/vendor/lib/libchromatix_ov8825_preview_hd.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_liveshot_hd.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_preview.so:system/vendor/lib/libchromatix_ov8825_preview.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_snapshot_hd.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_preview_hd.so:system/vendor/lib/libchromatix_ov8825_preview_hd.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_snapshot.so:system/vendor/lib/libchromatix_ov8825_snapshot.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_snapshot_hd.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_video_hd.so:system/vendor/lib/libchromatix_ov8825_video_hd.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8825_zsl.so:system/vendor/lib/libchromatix_ov8825_zsl.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:system/vendor/lib/libchromatix_ov8865_q8v18a_common.so \
@@ -275,28 +194,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_s5k3l1yx_snapshot.so:system/vendor/lib/libchromatix_s5k3l1yx_snapshot.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_s5k3l1yx_video_hd.so:system/vendor/lib/libchromatix_s5k3l1yx_video_hd.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_s5k3l1yx_zsl.so:system/vendor/lib/libchromatix_s5k3l1yx_zsl.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_common.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_default_video.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_preview.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so \
@@ -310,18 +213,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/sony/eagle/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
@@ -344,6 +244,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_imx134li_QC.so:system/vendor/lib/libmmcamera_imx134li_QC.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
@@ -354,7 +255,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:system/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
@@ -363,70 +263,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/sony/eagle/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/sony/eagle/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
-    vendor/sony/eagle/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
-    vendor/sony/eagle/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
-    vendor/sony/eagle/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwfduibcsrcinterface.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/sony/eagle/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
+    vendor/sony/eagle/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/sony/eagle/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so
