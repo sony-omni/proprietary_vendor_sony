@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8226-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/msm8226-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/msm8226-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/sony/msm8226-common/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/sony/msm8226-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/msm8226-common/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/msm8226-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
