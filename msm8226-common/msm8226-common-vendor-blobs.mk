@@ -47,12 +47,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8226-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/msm8226-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/msm8226-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/sony/msm8226-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/sony/msm8226-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/msm8226-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/sony/msm8226-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/sony/msm8226-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/msm8226-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/msm8226-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/msm8226-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/msm8226-common/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/msm8226-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/msm8226-common/proprietary/lib/libta.so:system/lib/libta.so \
+    vendor/sony/msm8226-common/proprietary/lib/hw/gps.msm8226.so:system/lib/hw/gps.msm8226.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
@@ -193,6 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/sony/msm8226-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
