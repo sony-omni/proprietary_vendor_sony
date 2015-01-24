@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
     vendor/sony/eagle/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/eagle/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    vendor/sony/eagle/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/sony/eagle/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
     vendor/sony/eagle/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
