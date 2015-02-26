@@ -55,6 +55,54 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/sony/eagle/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/eagle/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
+    vendor/sony/eagle/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
+    vendor/sony/eagle/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
+    vendor/sony/eagle/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b10:system/etc/firmware/modem.b10 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b15:system/etc/firmware/modem.b15 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b20:system/etc/firmware/modem.b20 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b21:system/etc/firmware/modem.b21 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b26:system/etc/firmware/modem.b26 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b27:system/etc/firmware/modem.b27 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
+    vendor/sony/eagle/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/sony/eagle/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/sony/eagle/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/sony/eagle/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/sony/eagle/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
+    vendor/sony/eagle/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
+    vendor/sony/eagle/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
+    vendor/sony/eagle/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
+    vendor/sony/eagle/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/eagle/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     vendor/sony/eagle/proprietary/lib/libbeautyface.so:system/lib/libbeautyface.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_liveshot.so:system/lib/libchromatix_imx134_liveshot.so \
