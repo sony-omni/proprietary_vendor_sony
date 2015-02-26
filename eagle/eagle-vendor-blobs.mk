@@ -34,6 +34,29 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/sony/eagle/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/sony/eagle/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b10:system/etc/firmware/modem.b10 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b15:system/etc/firmware/modem.b15 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b20:system/etc/firmware/modem.b20 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b21:system/etc/firmware/modem.b21 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b26:system/etc/firmware/modem.b26 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.b27:system/etc/firmware/modem.b27 \
+    vendor/sony/eagle/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/eagle/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
     vendor/sony/eagle/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
     vendor/sony/eagle/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
