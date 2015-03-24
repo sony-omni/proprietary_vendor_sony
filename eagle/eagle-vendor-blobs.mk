@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/eagle/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/sony/eagle/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/sony/eagle/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/sony/eagle/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/eagle/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
     vendor/sony/eagle/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
