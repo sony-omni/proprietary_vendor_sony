@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8226-common/proprietary/bin/bt_addr:system/bin/bt_addr \
     vendor/sony/msm8226-common/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/sony/msm8226-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/sony/msm8226-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
     vendor/sony/msm8226-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/msm8226-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/msm8226-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
@@ -44,13 +45,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8226-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/msm8226-common/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/msm8226-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/msm8226-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/sony/msm8226-common/proprietary/vendor/lib/libmiscta.so:system/vendor/lib/libmiscta.so \
     vendor/sony/msm8226-common/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/msm8226-common/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/msm8226-common/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/msm8226-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/sony/msm8226-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-    vendor/sony/msm8226-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/sony/msm8226-common/proprietary/vendor/lib/libta.so:system/vendor/lib/libta.so \
+    vendor/sony/msm8226-common/proprietary/vendor/lib/libcnefeatureconfig.so:system/vendor/lib/libcnefeatureconfig.so \
+    vendor/sony/msm8226-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/sony/msm8226-common/proprietary/vendor/lib/librmnetctl.so:system/vendor/lib/librmnetctl.so \
     vendor/sony/msm8226-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
     vendor/sony/msm8226-common/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/sony/msm8226-common/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
